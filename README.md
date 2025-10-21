@@ -1,11 +1,13 @@
 # Spotify-Music-Recommendation-System
 
 ## Overview
-This project is an end-to-end recommendation system based on raw Spotify API data with SQL EDA, ML models, A/B testing. Goal : help users discover new good songs.
+This project is an end-to-end recommendation system based on Spotify audio data from Kaggle with SQL EDA, ML models, A/B testing. Goal : help users discover new good songs.
 ## Dataset
-* Source : Spotify API
+* Source : Kaggle data set(Spotify audio features)
+* Overview : The dataset contains core audio features similar to those provided by the Spotify Web API
+    - track_id : Unique identifier assigned by Spotify to each track. Used as a primary key for joins.
+  
 ## Planned Features
-* Data Collection/Cleaning
 * Exploartory Data Analysis (EDA)
 * Machine Learning Models
 * End-to-End Pipeline
