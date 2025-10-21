@@ -1,0 +1,24 @@
+﻿# VS/SSMS caches
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build junk (if any)
+bin/
+obj/
+
+# SQL Server artifacts
+*.mdf
+*.ldf
+*.ndf
+*.bak
+*.trn
+
+# Data (keep only tiny samples)
+data/*
+!data/sample_*.csv
+
+# Logs
+*.log
