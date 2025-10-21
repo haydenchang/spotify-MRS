@@ -7,3 +7,4 @@ DELETE FROM cte WHERE row_number > 1;
 
 DELETE FROM [DS].[dbo].[raw_spotify_song_info.csv]
 WHERE track_name IS NULL OR energy IS NULL;
+
