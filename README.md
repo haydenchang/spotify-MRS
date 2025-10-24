@@ -56,7 +56,6 @@ This project is an end-to-end recommendation system based on Spotify audio data 
 * Exploartory Data Analysis (EDA)
 * Machine Learning Models
 * Neural Network Architecture
-* End-to-End Pipeline
 * A/B Testing
 * Visualization & Dashboard
 
