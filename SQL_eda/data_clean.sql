@@ -17,6 +17,7 @@ WHERE TABLE_NAME = 'raw_spotify_song_info.csv';
 
 -- Fix data type
 SELECT
+    artist_name,
     track_id,
     track_name,
     TRY_CONVERT(FLOAT, acousticness)     AS acousticness,
